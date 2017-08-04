@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/send"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Send to Friend"/>
+    <item android:id="@+id/exit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Edit"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/quiz"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="Quiz"/>
+</menu>
